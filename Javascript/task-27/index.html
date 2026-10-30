@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Способ получения</title>
+</head>
+<body>
+  <h1>Получение заказа</h1>
+  <!-- noValidate отключает встроенную проверку:
+       учебное правило и сообщение об ошибке реализованы в JS. -->
+  <form id="order-form" novalidate>
+    <label for="method">Способ получения</label>
+    <select id="method">
+      <option value="pickup">Самовывоз</option>
+      <option value="courier">Курьер</option>
+    </select>
+
+    <!-- При самовывозе поле недоступно и скрыто. -->
+    <div id="address-field" hidden>
+      <label for="address">Адрес доставки</label>
+      <input id="address" disabled aria-describedby="address-error">
+    </div>
+    <p id="address-error" role="alert"></p>
+
+    <button type="submit">Проверить заказ</button>
+    <p id="result" role="status"></p>
+  </form>
+  <script src="./script.js"></script>
+</body>
+</html>
