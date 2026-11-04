@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Показ пароля</title>
+</head>
+<body>
+  <h1>Проверка введённого пароля</h1>
+  <label for="password">Пароль</label>
+  <input id="password" type="password" autocomplete="current-password">
+  <!-- Меняется действие в подписи, поэтому aria-pressed здесь не нужен. -->
+  <button id="toggle" type="button" aria-controls="password">
+    Показать пароль
+  </button>
+  <script src="./script.js"></script>
+</body>
+</html>
