@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Связанные адреса</title>
+</head>
+<body>
+  <h1>Адреса заказа</h1>
+  <label for="shipping">Адрес доставки</label>
+  <input id="shipping">
+
+  <label>
+    <input id="same" type="checkbox">
+    Адрес оплаты совпадает с доставкой
+  </label>
+
+  <label for="billing">Адрес оплаты</label>
+  <input id="billing" aria-describedby="billing-hint">
+  <p id="billing-hint"></p>
+  <p id="summary"></p>
+  <script src="./script.js"></script>
+</body>
+</html>
