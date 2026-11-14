@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Поиск по словам</title>
+</head>
+<body>
+  <h1>Статьи</h1>
+  <label for="query">Поиск по всем словам</label>
+  <input id="query" type="search" aria-describedby="search-hint">
+  <p id="search-hint">Каждый фрагмент должен встречаться в названии. Порядок не важен.</p>
+  <p id="count" role="status"></p>
+  <p id="empty" hidden>Ничего не найдено</p>
+  <ul id="articles"></ul>
+  <script src="./script.js"></script>
+</body>
+</html>
