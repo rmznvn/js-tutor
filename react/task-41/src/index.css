@@ -1,0 +1,6 @@
+/* Простые стили оставляют учебную логику в центре внимания. */
+body { font: 18px/1.5 system-ui; max-width: 720px; margin: 2rem auto; padding: 1rem; }
+label { display: block; margin: 1rem 0; }
+button, input, select { font: inherit; }
+button { margin: .3rem; }
+:focus-visible { outline: 3px solid #2457d6; outline-offset: 3px; }
