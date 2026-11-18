@@ -1,6 +1,6 @@
 # JavaScript и React — практика фронтенд-задач
 
-В архиве **63 упражнения из 21 выпуска** за 30 сентября — 16 ноября 2026 года. Часть упражнений реализована на обеих технологиях. Последняя сверка с выпусками в чате: **17 ноября 2026 года**.
+В архиве **66 упражнений из 22 выпусков** за 30 сентября — 18 ноября 2026 года. Часть упражнений реализована на обеих технологиях. Последняя сверка с выпусками в чате: **18 ноября 2026 года**.
 
 ## Задачи
 
@@ -81,8 +81,13 @@
 | 2026-11-16 | Свободные интервалы бронирования | [Javascript/task-40](Javascript/task-40/) | — |
 | 2026-11-16 | Профиль с сохранением и отменой | — | [react/task-41](react/task-41/) |
 | 2026-11-16 | Удаляемые чипы фильтров | [Javascript/task-41](Javascript/task-41/) | [react/task-42](react/task-42/) |
+| 2026-11-18 | Adjacent cinema seat blocks | [Javascript/task-42](Javascript/task-42/) | — |
+| 2026-11-18 | Audio queue with safe removal | — | [react/task-43](react/task-43/) |
+| 2026-11-18 | Tournament bracket with dependent winners | [Javascript/task-43](Javascript/task-43/) | [react/task-44](react/task-44/) |
 
 [Полный выпуск за 16 ноября: условия → подсказки → разбор → код](releases/2026-11-16.md). Добавлен 17 ноября взамен пропущенного выпуска.
+
+[Full November 18 release: conditions → hints → candidate answers → breakdown → code](releases/2026-11-18.md).
 
 ## Как пользоваться
 
