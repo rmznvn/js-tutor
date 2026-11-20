@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Keyboard command palette</title>
+  </head>
+  <body>
+    <main>
+      <h1>Project dashboard</h1>
+      <button id="open-palette" type="button">Open command palette</button>
+
+      <section id="palette" hidden aria-label="Command palette">
+        <label for="command-search">Search commands</label>
+        <input
+          id="command-search"
+          type="search"
+          autocomplete="off"
+          aria-controls="command-list"
+          aria-activedescendant=""
+        />
+        <ul id="command-list" role="listbox"></ul>
+        <p>Use ↑/↓ to move, Enter to choose, and Escape to close.</p>
+      </section>
+
+      <p id="status" aria-live="polite"></p>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

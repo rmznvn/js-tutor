@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>File validation queue</title>
+  </head>
+  <body>
+    <main>
+      <h1>Attach application documents</h1>
+      <p>PDF, JPG, or PNG. Maximum 2 MB per file and 5 MB in total.</p>
+      <input id="file-input" type="file" multiple accept=".pdf,.jpg,.jpeg,.png" />
+      <ul id="file-list"></ul>
+      <ul id="error-list" aria-live="polite"></ul>
+      <p id="summary"></p>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

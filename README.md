@@ -1,6 +1,6 @@
 # JavaScript и React — практика фронтенд-задач
 
-В архиве **66 упражнений из 22 выпусков** за 30 сентября — 18 ноября 2026 года. Часть упражнений реализована на обеих технологиях. Последняя сверка с выпусками в чате: **18 ноября 2026 года**.
+В архиве **69 упражнений из 23 выпусков** за 30 сентября — 20 ноября 2026 года. Часть упражнений реализована на обеих технологиях. Последняя сверка с выпусками в чате: **20 ноября 2026 года**.
 
 ## Задачи
 
@@ -84,10 +84,15 @@
 | 2026-11-18 | Adjacent cinema seat blocks | [Javascript/task-42](Javascript/task-42/) | — |
 | 2026-11-18 | Audio queue with safe removal | — | [react/task-43](react/task-43/) |
 | 2026-11-18 | Tournament bracket with dependent winners | [Javascript/task-43](Javascript/task-43/) | [react/task-44](react/task-44/) |
+| 2026-11-20 | Keyboard command palette | [Javascript/task-44](Javascript/task-44/) | — |
+| 2026-11-20 | Capacity-aware room assignments | — | [react/task-45](react/task-45/) |
+| 2026-11-20 | Client-side file validation queue | [Javascript/task-45](Javascript/task-45/) | [react/task-46](react/task-46/) |
 
 [Полный выпуск за 16 ноября: условия → подсказки → разбор → код](releases/2026-11-16.md). Добавлен 17 ноября взамен пропущенного выпуска.
 
 [Full November 18 release: conditions → hints → candidate answers → breakdown → code](releases/2026-11-18.md).
+
+[Full November 20 release: conditions → hints → candidate answers → breakdown → code](releases/2026-11-20.md).
 
 ## Как пользоваться
 

@@ -1,0 +1,4 @@
+/* Minimal styles keep attention on file validation and immutable updates. */
+body { font: 18px/1.5 system-ui; max-width: 760px; margin: 2rem auto; padding: 1rem; }
+button, input { font: inherit; margin: .5rem; }
+:focus-visible { outline: 3px solid #2457d6; outline-offset: 3px; }
