@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Reservation hold timers</title>
+  </head>
+  <body>
+    <main>
+      <h1>Reservation holds</h1>
+
+      <section>
+        <h2>Studio room</h2>
+        <p id="studio-time">00:10</p>
+        <button id="studio-start" type="button">Start 10-second hold</button>
+        <button id="studio-cancel" type="button">Cancel hold</button>
+      </section>
+
+      <section>
+        <h2>Workshop room</h2>
+        <p id="workshop-time">00:15</p>
+        <button id="workshop-start" type="button">Start 15-second hold</button>
+        <button id="workshop-cancel" type="button">Cancel hold</button>
+      </section>
+
+      <p id="status" aria-live="polite"></p>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

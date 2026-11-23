@@ -1,6 +1,6 @@
 # JavaScript и React — практика фронтенд-задач
 
-В архиве **69 упражнений из 23 выпусков** за 30 сентября — 20 ноября 2026 года. Часть упражнений реализована на обеих технологиях. Последняя сверка с выпусками в чате: **20 ноября 2026 года**.
+В архиве **73 упражнения из 24 выпусков** за 30 сентября — 23 ноября 2026 года. Часть упражнений реализована на обеих технологиях. Последняя сверка с выпусками в чате: **23 ноября 2026 года**.
 
 ## Задачи
 
@@ -87,12 +87,18 @@
 | 2026-11-20 | Keyboard command palette | [Javascript/task-44](Javascript/task-44/) | — |
 | 2026-11-20 | Capacity-aware room assignments | — | [react/task-45](react/task-45/) |
 | 2026-11-20 | Client-side file validation queue | [Javascript/task-45](Javascript/task-45/) | [react/task-46](react/task-46/) |
+| 2026-11-23 | Independent reservation hold timers | [Javascript/task-46](Javascript/task-46/) | — |
+| 2026-11-23 | Effective team permissions | [Javascript/task-47](Javascript/task-47/) | — |
+| 2026-11-23 | Conference agenda planner | — | [react/task-47](react/task-47/) |
+| 2026-11-23 | Volunteer availability matrix | — | [react/task-48](react/task-48/) |
 
 [Полный выпуск за 16 ноября: условия → подсказки → разбор → код](releases/2026-11-16.md). Добавлен 17 ноября взамен пропущенного выпуска.
 
 [Full November 18 release: conditions → hints → candidate answers → breakdown → code](releases/2026-11-18.md).
 
 [Full November 20 release: conditions → hints → candidate answers → breakdown → code](releases/2026-11-20.md).
+
+[Full November 23 release: four tasks, conditions → hints → candidate answers → breakdown → code](releases/2026-11-23.md).
 
 ## Как пользоваться
 
