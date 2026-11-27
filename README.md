@@ -1,6 +1,6 @@
 # JavaScript и React — практика фронтенд-задач
 
-В архиве **77 exercises from 25 releases** covering September 30 — November 25, 2026. Часть упражнений реализована на обеих технологиях. Latest synchronization with the chat releases: **November 25, 2026**.
+В архиве **81 exercises from 26 releases** covering September 30 — November 27, 2026. Часть упражнений реализована на обеих технологиях. Latest synchronization with the chat releases: **November 27, 2026**.
 
 ## Задачи
 
@@ -95,6 +95,10 @@
 | 2026-11-25 | Podcast media controller and callback receiver | [Javascript/task-49](Javascript/task-49/) | — |
 | 2026-11-25 | Editable league standings | — | [react/task-49](react/task-49/) |
 | 2026-11-25 | Reservation waitlist promotion | — | [react/task-50](react/task-50/) |
+| 2026-11-27 | Closure-based inventory ledger | [Javascript/task-50](Javascript/task-50/) | — |
+| 2026-11-27 | Accessibility audit queue | [Javascript/task-51](Javascript/task-51/) | — |
+| 2026-11-27 | Kanban workflow transitions | — | [react/task-51](react/task-51/) |
+| 2026-11-27 | Exact shared-bill balances | — | [react/task-52](react/task-52/) |
 
 [Полный выпуск за 16 ноября: условия → подсказки → разбор → код](releases/2026-11-16.md). Добавлен 17 ноября взамен пропущенного выпуска.
 
@@ -105,6 +109,8 @@
 [Full November 23 release: four tasks, conditions → hints → candidate answers → breakdown → code](releases/2026-11-23.md).
 
 [Full November 25 release: four tasks, conditions → hints → candidate answers → breakdown → code](releases/2026-11-25.md).
+
+[Full November 27 release: four tasks, conditions → hints → candidate answers → breakdown → code](releases/2026-11-27.md).
 
 ## Как пользоваться
 

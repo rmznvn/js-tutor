@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Inventory ledger</title></head>
+<body>
+  <main>
+    <h1>Equipment inventory</h1>
+    <form id="inventory-form">
+      <label>Product <select id="product"></select></label>
+      <label>Quantity <input id="quantity" type="number" min="1" step="1" value="1"></label>
+      <button type="submit" name="action" value="reserve">Reserve</button>
+      <button type="submit" name="action" value="release">Release</button>
+    </form>
+    <p id="message" role="status"></p>
+    <ul id="stock-list"></ul>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
